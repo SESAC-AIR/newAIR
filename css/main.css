@@ -1,0 +1,57 @@
+@import url("./reset.css");
+@import url("./header.css");
+
+main{
+    position: relative;
+}
+
+main > .section1{
+    position: relative;
+    /* background-color: yellow; */
+    padding: 50px 50px;
+}
+
+main > .section1 > video{
+    width: 100%;
+}
+
+main > .section2{
+    position: relative;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 50px;
+}
+
+main > .section2 > .article{
+    width: 100%;
+}
+
+
+main > .section2 > .article1-1st{
+    grid-column: 1 / 2;
+}
+
+main > .section2 > .article2-1st{
+    grid-column: 2 / 3;
+}
+
+main > .section2 > .article3-1st{
+    grid-column: 3 / 4;
+}
+
+
+
+main > .section2 > .article > .title > p:first-child{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+main > .section2 > .article > .title > p:last-child{
+}
+
+main > .section2 > .article > .img > img{
+    width: 100%;
+}
+
+

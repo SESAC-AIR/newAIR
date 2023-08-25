@@ -1,0 +1,32 @@
+/* font-family: 'Alfa Slab One', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+/* font-family: 'Inter', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/* font-family: 'Lato', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;500;600;700;800;900&display=swap'); */
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); */
+
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("../font/Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf")
+    format("truetype");
+  unicode-range: U+AC00-D7AF;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato/Lato-Regular.ttf") format("truetype");
+    unicode-range: U+0041-005A, U+0061-007A;
+}
+
+body {
+  font-family: "Lato", "Noto Sans KR";
+}
+
+* {
+  font-family: inherit;
+}
